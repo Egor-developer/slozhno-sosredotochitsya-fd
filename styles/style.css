@@ -1,9 +1,13 @@
-.header {
-  padding: 75px 10px 66px;
+.page {
   background-image: var(--url-cover-image);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
+  background-attachment: fixed;
+}
+
+.header {
+  padding: 75px 10px 66px;
 }
 
 .decorated-zone {

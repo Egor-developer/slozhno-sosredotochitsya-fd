@@ -124,7 +124,6 @@ main {
 .main__title {
   margin-block-end: 20px;
   color: var(--accent-color);
-  font-size: 1em;
   line-height: 1.3em;
 }
 
@@ -136,7 +135,6 @@ main {
 
 .main__topic-title {
   margin-block-end: 10px;
-  font-size: 1em;
 }
 
 .main__topic-text {
@@ -147,10 +145,37 @@ main {
   text-shadow: 2px 2px 0 var(--accent-color);
 }
 
-.main__topics-title {
-  font-size: 1em;
+.main__topic-link:hover {
+  border-block-end: 1px solid var(--main-color);
+}
+
+.main__topic-link:focus {
+  outline: none;
+}
+
+.main__topic-link:focus-visible {
+  outline: 1px solid var(--main-color);
 }
 
 .main__topic-title__advice {
   font-weight: 400;
+}
+
+.gallery {
+  margin-block-end: 40px;
+}
+
+.gallery__title {
+  margin-bottom: 10px;
+}
+
+.gallery__wrapper {
+  display: grid;
+  grid-auto-rows: min-content;
+  gap: 10px;
+}
+
+.gallery__image {
+  width: 100%;
+  object-fit: cover;
 }

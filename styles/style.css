@@ -3,13 +3,16 @@
 }
 
 .header {
-  position: relative;
   padding: 75px 10px 66px;
   background-image: var(--url-cover-image);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.decorated-zone {
+  position: relative;
 }
 
 .decorated-zone::before {
@@ -93,10 +96,6 @@
 
 .header__title {
   margin-bottom: 55px;
-  color: var(--title-color);
-  font-weight: 700;
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  line-height: 6rem;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
@@ -178,4 +177,16 @@ main {
 .gallery__image {
   width: 100%;
   object-fit: cover;
+}
+
+.footer {
+  padding: 0 10px;
+  display: grid;
+  grid-template-rows: 668px;
+}
+
+.footer__title {
+  align-self: center;
+  justify-self: center;
+  text-shadow: 2px 2px 0 var(--accent-color);
 }

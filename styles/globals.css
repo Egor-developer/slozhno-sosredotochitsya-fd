@@ -56,7 +56,7 @@ a {
 }
 
 .title-decor {
-  color: var(--background-color);
+  color: var(--accent-subtitle-color);
   line-height: 1.3em;
   background-color: var(--accent-color);
 }

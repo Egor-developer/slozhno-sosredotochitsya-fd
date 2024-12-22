@@ -8,6 +8,8 @@
 
 .header {
   padding: 75px 10px 66px;
+  block-size: 100vh;
+  min-block-size: 668px;
 }
 
 .decorated-zone {
@@ -188,7 +190,8 @@ main {
 .footer {
   padding: 0 10px;
   display: grid;
-  grid-template-rows: 668px;
+  grid-template-rows: 100vh;
+  min-block-size: 668px;
 }
 
 .footer__title {
@@ -204,6 +207,7 @@ main {
 
   .header {
     padding: 192px 20px 183px 0;
+    min-block-size: 1024px;
   }
 
   .decorated-zone::before {
@@ -295,7 +299,7 @@ main {
 
   .footer {
     padding: 0 20px;
-    grid-template-rows: 100vh;
+    min-block-size: 1024px;
   }
 }
 
@@ -306,6 +310,7 @@ main {
 
   .header {
     padding: 20px 20px 135px 0;
+    min-block-size: 768px;
   }
 
   .header__theme-menu-list {
@@ -322,7 +327,6 @@ main {
   .header__text {
     margin-inline-start: auto;
     max-inline-size: 364px;
-    max-inline-size: calc(50% - 10px);
   }
 
   .main__topics-container__reasons {
@@ -336,5 +340,9 @@ main {
 
   .main__title__reasons {
     max-inline-size: 314px;
+  }
+
+  .footer {
+    min-block-size: 768px;
   }
 }

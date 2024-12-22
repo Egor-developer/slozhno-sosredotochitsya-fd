@@ -43,9 +43,11 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  text-decoration: none;
 }
 
 .title-decor {
   color: var(--background-color);
+  line-height: 1.3em;
   background-color: var(--accent-color);
 }

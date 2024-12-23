@@ -138,8 +138,13 @@ main {
   gap: 20px;
 }
 
+.main__topic {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .main__topic-title {
-  margin-block-end: 10px;
   font-weight: 700;
 }
 
